@@ -1,0 +1,104 @@
+main {
+  padding-top: 60px;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+article {
+  border-right: 5px solid black;
+}
+#art2 {
+  border-right: none;
+}
+
+/*---------------------------------*/
+nav {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+  text-align: center;
+}
+li {
+  border-right: 1px solid blue;
+  display: inline-block;
+  padding: 15px;
+}
+#li2 {
+  border: none;
+}
+
+/*---------------------------------*/
+
+
+/*---------------------------------*/
+section {
+  display: flex;
+}
+article {
+  display: inline-block;
+  column-count: 4;
+  column-gap: 20px;
+  column-rule: 5px solid black;
+  font-size: 25px;
+}
+
+#norway{
+  width:20%;
+  font-size: large;
+}
+/*-------IMAGENES-------------*/
+#imagenes {
+  width: 30%;
+}
+#principal {
+  padding: 5%;
+  width: 100%;
+  display: flex;
+  padding-left: 25%;
+}
+div {
+  display: inline-block;
+}
+img {
+  padding:25px;
+  width: 125px;
+  height: auto;
+}
+/*-------CONTENIDO-----------*/
+#secundario {
+  width: 100%;
+}
+
+/*--------FOOTER--------*/
+footer{
+  background-color: bisque;
+}
+button {
+  color: cyan;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  align-items: center;
+}
+
+button:nth-of-type(2){
+  float:right;
+}
+i{
+  /*Esto es para darle la vuelta, que vale dinero y no se puede usar el icono como tal */
+  transform: rotate(180deg);
+}
